@@ -1,0 +1,575 @@
+/* All Css Common Start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a :hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Css Common End */
+
+/* Header Part Css Start */
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.socialPart a {
+    margin: 0 7px;
+    color: #ddd;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Header Part Css End */
+
+/* manner Part Css Start */
+#bannerPart {
+    padding-top: 340px;
+    padding-bottom: 100px;
+    background: url(../images/Banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.textBnr {
+    padding-top: 60px;
+}
+
+.textBnr h6 {
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+}
+
+.textBnr h4 {
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    display: inline-block;
+}
+
+.textBnr h4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    left: calc(100% + 20px);
+    width: 90px;
+    height: 3px;
+    background: #ffffff;
+}
+
+
+.textBnr p {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    width: 521px;
+}
+
+.viewMorebtn {
+    padding-top: 61px;
+}
+
+.viewMorebtn a {
+    padding: 13px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #121212;
+    background: #FFFFFF;
+    width: 128px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.socialIcon a i {
+    color: #ffff;
+}
+
+.viewMorebtn a:hover {
+    transform: scale(1.05);
+    background-color: #FF4655;
+}
+
+.socialIcon {
+    padding-top: 301px;
+    font-size: 35px;
+
+}
+
+.socialIcon a:hover {
+    border-radius: 10px;
+    transform: scale(1.05);
+    background-color: #FF4655;
+}
+
+/* manner Part Css End */
+
+/* About Part Css Start */
+#aboutPart {
+    padding-top: 35px;
+    padding-bottom: 80px;
+    background: #121212;
+
+}
+
+.Headingtext h3 {
+    /* padding-top: 35px; */
+    height: 110px;
+    width: 518px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 7%;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    position: relative;
+
+}
+
+.Headingtext h3::after {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+}
+
+.aboutImg {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.aboutImg::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 157px;
+    height: 120px;
+    border-left: 3px solid #FF4655;
+    border-top: 3px solid #FF4655;
+    z-index: 2;
+}
+
+.textTwo {
+    padding-top: 200px;
+
+}
+
+.textTwo h3 {
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+}
+
+.textTwo h5 {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+}
+
+.textTwo p {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 3%;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+}
+
+.textTwo h5 i {
+    color: #FF4655;
+}
+
+.textBtn {
+    padding-top: 40px;
+
+}
+
+.textBtn a {
+    padding: 13px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #ffff;
+    background: #212121;
+    width: 128px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.textBtn a:hover {
+    transform: scale(1.05);
+    background-color: #FF4655;
+}
+
+.counterItem {
+    background: #212121;
+    padding: 26px 77px;
+    text-align: center;
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.counterItem h3 {
+    padding-top: 18px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+}
+
+.counterItem p {
+    padding-top: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+}
+
+.counterItem h3 i {
+    font-size: 12px;
+    color: #FF4655;
+}
+
+.counterItem:hover {
+    background: #FF4655;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* About Part Css End */
+
+/* Gaming Part-1 Css Start */
+#GamingPart {
+    height: 785px;
+    background: #191919;
+    position: relative;
+
+}
+
+.imageLeft {
+    padding-top: 131px;
+}
+
+.imageRight img {
+    padding-top: 19px;
+}
+
+.imageRight h3 {
+    padding-top: 115px;
+    text-align: right;
+    padding-bottom: 80px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    position: relative;
+}
+
+.imageRight h3::after {
+    content: "";
+    position: absolute;
+    right: 134px;
+    bottom: 85px;
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+}
+
+.imageLeft :hover,
+.imageRight img:hover {
+    transform: scale(1.12);
+    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.3));
+    transition: 0.3s;
+}
+
+.slider-arrows {
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.arrow-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.arrow-btn:hover {
+    background: #FF4655;
+    transform: scale(1.1);
+    border-color: #FF4655;
+}
+
+
+/* Gaming Part-1 Css End */
+
+/* Live Vedio Part Css Start */
+#LivePart {
+    background: #121212;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.text h3 {
+    padding-bottom: 68px;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+}
+
+.text h3::after {
+    content: "";
+    position: absolute;
+    bottom: 77px;
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    right: 155px;
+}
+
+
+.vedioItem-1:hover,
+.vedioItem-2:hover,
+.vedioItem-3:hover {
+    transform: scale(1.12);
+    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.3));
+    transition: 0.3s;
+}
+
+.vedioItem-1,
+.vedioItem-2,
+.vedioItem-3 {
+    padding-bottom: 70px;
+}
+
+.txt {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.previousmatch {
+    padding-left: 112px;
+
+}
+
+.image {
+    position: relative;
+    display: inline-block;
+}
+
+.bg-img {
+    width: 426px;
+    height: 119px;
+    display: block;
+}
+
+.top-img {
+    position: absolute;
+    top: 50%;
+    left: 48px;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 99px;
+}
+
+.time h3 {
+    padding-left: 160px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 15%;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+}
+
+.image h4 {
+    position: absolute;
+    left: 170px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.rightTeam {
+    padding-left: 80px;
+}
+
+.image-1 {
+    position: relative;
+    display: inline-block;
+}
+
+.bg-img-1 {
+    width: 426px;
+    height: 119px;
+    display: block;
+}
+
+.top-img-2 {
+    position: absolute;
+    top: 50%;
+    right: -48px;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 99px;
+}
+.image-1 h4 {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.teamGap{
+padding-top: 55px;
+}
+
+.col-lg-4:hover{
+     transform: scale(1.12);
+    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(248, 139, 139, 0.823));
+    transition: 0.3s;
+}
+
+/* Live Vedio Part Css End */
+
+/* Header Part Css Start */
+/* Header Part Css End */
+
+/* Header Part Css Start */
+/* Header Part Css End */
+
+/* Header Part Css Start */
+/* Header Part Css End */
+
+/* Header Part Css Start */
+/* Header Part Css End */
+
+
+
+
+
+
+
+
+
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
+/* All Css Common Start */
+/* All Css Common End */
