@@ -160,7 +160,6 @@ p {
 }
 
 .Headingtext h3 {
-    /* padding-top: 35px; */
     height: 110px;
     width: 518px;
     font-size: 38px;
@@ -497,6 +496,7 @@ p {
     width: 100px;
     height: 99px;
 }
+
 .image-1 h4 {
     position: absolute;
     left: 60px;
@@ -507,29 +507,339 @@ p {
     font-weight: 400;
     white-space: nowrap;
 }
-.teamGap{
-padding-top: 55px;
+
+.teamGap {
+    padding-top: 55px;
 }
 
-.col-lg-4:hover{
-     transform: scale(1.12);
-    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(248, 139, 139, 0.823));
+.previousmatch:hover,
+.rightTeam:hover {
+    transform: scale(1.12);
+    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.3));
     transition: 0.3s;
 }
 
 /* Live Vedio Part Css End */
 
-/* Header Part Css Start */
-/* Header Part Css End */
+/* Top Games Part Css Start */
+#topGames {
+    background: #191919;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
-/* Header Part Css Start */
-/* Header Part Css End */
+.headingTxt {
+    text-align: right;
+}
 
-/* Header Part Css Start */
-/* Header Part Css End */
+.headingTxt h3 {
+    padding-bottom: 47px;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+    position: relative;
+}
 
-/* Header Part Css Start */
-/* Header Part Css End */
+.headingTxt h3::after {
+    content: "";
+    position: absolute;
+    right: 98px;
+    bottom: 56px;
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+}
+
+.GamingCard {
+    width: 315px;
+    height: 568px;
+}
+
+.btmText h3 {
+    padding-top: 18px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Barlow", sans-serif;
+}
+
+.btmText h5 {
+    padding-top: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Oswald", sans-serif;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.flex h4 {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Oswald", sans-serif;
+}
+
+.flex h4 {
+    width: 40px;
+    height: 30px;
+    padding: 4px 5px;
+    color: #fff;
+    background: #FF4655;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.flex h5 {
+    padding-top: 18px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Oswald", sans-serif;
+    text-decoration: line-through;
+}
+
+.flex h6 {
+    padding-top: 18px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Oswald", sans-serif;
+
+}
+
+/* Top Games Part Css End */
+
+/* Games Catalog Part Css Start */
+.catalogHeading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffff;
+    font-family: "Barlow", sans-serif;
+}
+
+.favouriteGame {
+    padding-left: 44px;
+}
+
+.favouriteHeading h4 {
+    letter-spacing: 10%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #FF4655;
+    font-family: "Oswald", sans-serif;
+}
+
+.favouriteHeading h3 {
+    padding-top: 15px;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    color: #ffff;
+    font-family: "Barlow", sans-serif;
+}
+
+.favouriteHeading p {
+    height: 48px;
+    width: 601px;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #ffff;
+    font-family: "Oswald", sans-serif;
+}
+
+.Browsebtn {
+    padding-top: 56px;
+}
+
+.Browsebtn a {
+    padding: 13px 31px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    background: #121212;
+    width: 128px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.slideImg {
+    padding-left: 136px;
+}
+
+/* Games Catalog Part Css End */
+
+/* ACCESORIES Provide Part Css Start */
+#ACCESORIES-Provide {
+    background: #121212;
+    height: 858px;
+
+}
+
+.HeadingText {
+    padding-top: 90px;
+    padding-bottom: 105px;
+}
+
+.HeadingText h3 {
+    width: 446px;
+    height: 111px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    position: relative;
+}
+
+.HeadingText h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 120px;
+    height: 3px;
+    background: #FF4655;
+    right: 132px;
+}
+
+.accesoriesItem {
+    width: 312px;
+    height: 462px;
+    background: #212121;
+}
+
+.accesoriesItem h3 {
+    padding-top: 30px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 56px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.accesoriesItem img {
+    padding-top: 50px;
+    padding-left: 38px;
+}
+
+.accesoriesItem h4 {
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.accesoriesItem h5 {
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: "Oswald", sans-serif;
+    color: #FF4655;
+    text-align: center;
+}
+
+.accesoriesItem:hover {
+    transform: scale(1.12);
+    filter: brightness(1.15) drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.3));
+    transition: 0.3s;
+}
+
+.row {
+    position: relative;
+}
+
+.slider-Arrows {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    padding: 0 0;
+    justify-content: space-between;
+}
+
+
+.arrow-Btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.arrow-Btn:hover {
+    background: #FF4655;
+    transform: scale(1.1);
+    border-color: #FF4655;
+}
+
+/* ACCESORIES Provide Part Css End */
+
+/* Meet Our Team Part Css Start */
+#Meet-Our-Team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #191919;
+}
+
+.Heading-txt {
+    text-align: right;
+    padding-bottom: 50px;
+}
+
+.Heading-txt h3 {
+    font-size: 37px;
+    font-weight: 600;
+    line-height: 46px;
+    font-family: "Barlow", sans-serif;
+    color: #fff;
+    position: relative;
+
+}
+
+.Heading-txt h3::after {
+    content: "";
+    position: absolute;
+    bottom: 9px;
+    width: 105px;
+    height: 3px;
+    background: #FF4655;
+    left: 337px;
+}
+
+/* Meet Our Team Part Css End */
 
 
 
@@ -539,37 +849,6 @@ padding-top: 55px;
 
 
 
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
-/* All Css Common Start */
-/* All Css Common End */
+
 /* All Css Common Start */
 /* All Css Common End */

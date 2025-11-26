@@ -1,25 +1,2 @@
  font-family: "Oswald", sans-serif;
   font-family: "Barlow", sans-serif;
-
-
-   <div class="col-lg-4">
-                <div class="previousmatch">
-                    <div class="image">
-                        <img src="images/01.png" class="bg-img" alt="01.png">
-                        <img src="images/001.png" class="top-img" alt="001.png">
-                    </div>
-                </div>
-                <div class="col-lg-2">
-                     <div class="time">
-                        <h3>9:12</h3>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="rightTeam">
-                         <div class="image-1">
-                        <img src="images/team2.png" class="bg-img-1" alt="team2.png">
-                        <img src="images/t2.png" class="top-img-2" alt="t2.png">
-                    </div>
-                    </div>
-                </div>
-            </div>
