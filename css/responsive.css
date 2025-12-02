@@ -85,12 +85,13 @@
     /* Gaming Part-1 Css Start */
     .rightheading h3 {
        padding-top: 30px;
-       font-size: 24px;
+       font-size: 21px;
     }
 
     .rightheading h3::after {
-       right: 83px;
+       right: 76px;
        bottom: 93px;
+       width: 95px;
     }
 
     .slider-arrows {
@@ -102,16 +103,63 @@
 
     /* Live part Start  */
     #LivePart {
-       padding-top: 31px;
+       padding-top: 70px;
     }
 
     .text h3 {
-       font-size: 26px;
+       font-size: 31px;
     }
 
     .text h3::after {
-       bottom: 85px;
+       bottom: 81px;
        width: 95px;
+       right: 135px;
+    }
+
+    /* Previous Match Responsive */
+    .previous-row {
+       margin-bottom: 40px;
+       text-align: center;
+    }
+
+    .previousmatch,
+    .rightTeam {
+       padding-left: 0;
+       text-align: center;
+    }
+
+    .bg-img,
+    .bg-img-1 {
+       width: 100%;
+       height: auto;
+    }
+
+    .top-img {
+       width: 70px;
+       height: 70px;
+       left: 24%;
+    }
+
+    .top-img-2 {
+       width: 70px;
+       height: 70px;
+       left: 75%;
+    }
+
+    .image h4 {
+       left: 45%;
+       top: 50%;
+       font-size: 18px;
+    }
+
+    .image-1 h4 {
+       left: 25%;
+       top: 50%;
+       font-size: 18px;
+    }
+
+    .time h3 {
+       padding-left: 15px;
     }
 
     /* Live part End  */
@@ -146,6 +194,8 @@
        padding-top: 27px;
     }
 
+    /* Games Catalog Part Css End */
+
 
     /* ACCESORIES Provide Part Css Start */
     .HeadingText {
@@ -163,12 +213,89 @@
        right: 210px;
     }
 
+    .row {
+       gap: 50px;
+    }
+
     /* ACCESORIES Provide Part Css End */
 
 
 
-    /* Games Catalog Part Css End */
-    /* Top Games Part Css End */
+    /* Meet Our Team Start */
+    .Heading-txt h3 {
+       font-size: 23px;
+       padding-top: 1300px;
+    }
+
+    .Heading-txt h3::after {
+       bottom: 14px;
+       left: 176px;
+    }
+
+    .overly p {
+       width: 363px;
+       height: 65px;
+       font-size: 10px;
+    }
+
+    .knowMorebtn {
+       padding-top: 18px;
+    }
+
+    .social-Icon {
+       padding-left: 212px;
+    }
+
+    /* Meet Our Team End */
+
+    /* question & ansawere part Start  */
+    .txtHeading h3 {
+       font-size: 22px;
+       width: 352px;
+    }
+
+    .question h4 {
+       line-height: 30px;
+    }
+
+    #askedQuestion::after {
+       left: 11px;
+       right: 11px;
+       top: 1277px;
+    }
+
+    #askedQuestion::before {
+       content: none !important;
+       display: none !important;
+    }
+
+    /* question & ansawere part Start  */
+    /* Hancok part Start  */
+    #hancok-section {
+       padding-top: 705px;
+    }
+
+    .subText-heading h3 {
+       font-size: 15px;
+       text-align: center;
+    }
+
+    .subscribe-btn {
+       margin-left: 229px;
+       padding: 0px 25px;
+       height: 38%;
+    }
+
+    .form-control {
+       width: 304px;
+    }
+
+    .subscribe-section {
+       padding: 16px 0;
+       margin-bottom: 50px;
+    }
+
+    /* Hancok part Start  */
  }
 
 

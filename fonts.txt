@@ -1,2 +1,22 @@
  font-family: "Oswald", sans-serif;
   font-family: "Barlow", sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  git add .
+git commit -m "update message"
+git push
+git pull
