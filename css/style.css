@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 ul,
 ol {
     list-style-type: none;
@@ -36,6 +46,7 @@ p {
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 99;
 }
 
 .nav-link {
@@ -59,7 +70,7 @@ p {
 
 /* Header Part Css End */
 
-/* manner Part Css Start */
+/* Banner Part Css Start */
 #bannerPart {
     padding-top: 340px;
     padding-bottom: 100px;
@@ -93,9 +104,8 @@ p {
 .textBnr h4::after {
     content: "";
     position: absolute;
-    bottom: 0;
-    transform: translateY(-50%);
-    left: calc(100% + 20px);
+    bottom: -2px;
+    right: -95px;
     width: 90px;
     height: 3px;
     background: #ffffff;
@@ -149,7 +159,7 @@ p {
     background-color: #FF4655;
 }
 
-/* manner Part Css End */
+/* Banner Part Css End */
 
 /* About Part Css Start */
 #aboutPart {
@@ -160,29 +170,27 @@ p {
 }
 
 .Headingtext h3 {
-    height: 110px;
-    width: 518px;
+    right: 54px;
+    padding: 54px;
     font-size: 38px;
     font-weight: 600;
-    line-height: 56px;
-    letter-spacing: 7%;
+    line-height: 52px;
     font-family: "Oswald", sans-serif;
     color: #FFFFFF;
     position: relative;
-
 }
 
 .Headingtext h3::after {
     content: "";
     position: absolute;
-    bottom: 9px;
+    bottom: 62px;
     width: 120px;
     height: 3px;
     background: #FF4655;
 }
 
 .aboutImg {
-    padding-top: 100px;
+    padding-top: 0px;
     padding-bottom: 50px;
     position: relative;
 }
@@ -190,7 +198,7 @@ p {
 .aboutImg::before {
     content: "";
     position: absolute;
-    top: 100px;
+    top: 0px;
     left: 0;
     width: 157px;
     height: 120px;
@@ -305,17 +313,13 @@ p {
 
 }
 
-.imageLeft {
-    padding-top: 131px;
-}
-
 .imageRight img {
-    padding-top: 19px;
+    padding-top: 58px;
 }
 
-.imageRight h3 {
-    padding-top: 115px;
-    text-align: right;
+.rightheading h3 {
+   text-align: right;
+    padding-top: 50px;
     padding-bottom: 80px;
     font-size: 38px;
     font-weight: 600;
@@ -325,11 +329,11 @@ p {
     position: relative;
 }
 
-.imageRight h3::after {
+.rightheading h3::after {
     content: "";
     position: absolute;
-    right: 134px;
-    bottom: 85px;
+    right: 130px;
+    bottom: 89px;
     width: 105px;
     height: 3px;
     background: #FF4655;
@@ -345,7 +349,7 @@ p {
 .slider-arrows {
     position: absolute;
     right: 100px;
-    bottom: 80px;
+    bottom: 114px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -453,22 +457,21 @@ p {
 }
 
 .time h3 {
-    padding-left: 160px;
+    padding-left: 62px;
     font-size: 40px;
     font-weight: 400;
     line-height: 59px;
-    letter-spacing: 15%;
     color: #FFFFFF;
     font-family: "Barlow", sans-serif;
 }
 
 .image h4 {
     position: absolute;
-    left: 170px;
+    left: 100px;
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     white-space: nowrap;
 }
@@ -499,11 +502,11 @@ p {
 
 .image-1 h4 {
     position: absolute;
-    left: 60px;
+    left: 35px;
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     white-space: nowrap;
 }

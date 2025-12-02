@@ -1,0 +1,199 @@
+ /* Extra small devices  */
+ @media (max-width: 575.98px) {
+
+    /* Header Part Start */
+    .navbar-toggler i {
+       color: #ffff;
+    }
+
+    .navbar-nav {
+       background: #FF4655;
+       border-radius: 15px;
+       align-items: center;
+    }
+
+    .socialPart {
+       padding: 10px;
+       background: #FF4655;
+       border-radius: 15px;
+       text-align: center;
+    }
+
+    /* Header Part End */
+
+
+    /* Banner Part Start */
+    #bannerPart {
+       padding-top: 55px;
+       padding-bottom: 50px;
+    }
+
+    .textBnr h4 {
+       padding-top: 20px;
+       font-size: 44px;
+       line-height: 50px;
+    }
+
+    .textBnr h4::after {
+       bottom: 4px;
+       right: 62px;
+       width: 67px;
+    }
+
+    .textBnr p {
+       width: 100%;
+       text-align: justify;
+    }
+
+    .socialIcon {
+       padding-top: 40px;
+    }
+
+
+    /* Banner Part End */
+
+
+    /* About Part Start */
+    .Headingtext h3 {
+       font-size: 22px;
+       line-height: 36px;
+    }
+
+    .Headingtext h3::after {
+       width: 67px;
+    }
+
+    .textTwo {
+       padding-top: 0px;
+    }
+
+    .textTwo h5 {
+       font-size: 13px;
+    }
+
+    .textBtn {
+       padding-bottom: 30px;
+    }
+
+    .row {
+       position: relative;
+       gap: 20px;
+    }
+
+    /* About Part End */
+
+    /* Gaming Part-1 Css Start */
+    .rightheading h3 {
+       padding-top: 30px;
+       font-size: 24px;
+    }
+
+    .rightheading h3::after {
+       right: 83px;
+       bottom: 93px;
+    }
+
+    .slider-arrows {
+       right: 7px;
+       bottom: 48px;
+    }
+
+    /* Gaming Part-1 Css End */
+
+    /* Live part Start  */
+    #LivePart {
+       padding-top: 31px;
+    }
+
+    .text h3 {
+       font-size: 26px;
+    }
+
+    .text h3::after {
+       bottom: 85px;
+       width: 95px;
+    }
+
+    /* Live part End  */
+
+    /* Top Games Part Css Start */
+    .headingTxt h3 {
+       font-size: 25px;
+    }
+
+    .headingTxt h3::after {
+       right: 69px;
+       bottom: 60px;
+    }
+
+    /* Games Catalog Part Css Start */
+    .favouriteHeading h3 {
+       font-size: 29px;
+    }
+
+    .favouriteHeading p {
+       width: 300px;
+       padding-top: 10px;
+       font-size: 13px;
+    }
+
+    .Browsebtn {
+       padding-top: 60px;
+    }
+
+    .slideImg {
+       padding-left: 0px;
+       padding-top: 27px;
+    }
+
+
+    /* ACCESORIES Provide Part Css Start */
+    .HeadingText {
+       padding-top: 40px;
+       padding-bottom: 38px;
+    }
+
+    .HeadingText h3 {
+       font-size: 30px;
+    }
+
+    .HeadingText h3::after {
+       bottom: 13px;
+       width: 84px;
+       right: 210px;
+    }
+
+    /* ACCESORIES Provide Part Css End */
+
+
+
+    /* Games Catalog Part Css End */
+    /* Top Games Part Css End */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Small devices  */
+ @media (min-width: 576px) and (max-width: 767.98px) {}
+
+ /* Medium devices  */
+ @media (min-width: 768px) and (max-width: 991.98px) {}
+
+ /* Large devices */
+ @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+ /* Extra large devices  */
+ @media (min-width: 1200px) {}
