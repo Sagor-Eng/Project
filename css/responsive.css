@@ -85,11 +85,11 @@
     /* Gaming Part-1 Css Start */
     .rightheading h3 {
        padding-top: 30px;
-       font-size: 28px;
+       font-size: 24px;
     }
 
     .rightheading h3::after {
-       right: 155px;
+       right: 90px;
        bottom: 91px;
        width: 95px;
     }
@@ -111,13 +111,13 @@
     }
 
     .text h3 {
-       font-size: 38px;
+       font-size: 33px;
     }
 
     .text h3::after {
-       bottom: 78px;
+       bottom: 81px;
        width: 95px;
-       right: 50px;
+       right: 115px;
     }
 
     /* Previous Match Responsive */
@@ -170,12 +170,12 @@
 
     /* Top Games Part Css Start */
     .headingTxt h3 {
-       font-size: 40px;
+       font-size: 24px;
     }
 
     .headingTxt h3::after {
-       right: 101px;
-       bottom: 54px;
+       right: 66px;
+       bottom: 11px;
     }
 
     /* Games Catalog Part Css Start */
