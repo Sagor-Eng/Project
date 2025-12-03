@@ -171,11 +171,12 @@
     /* Top Games Part Css Start */
     .headingTxt h3 {
        font-size: 24px;
+       padding-left: 9px;
     }
 
     .headingTxt h3::after {
        right: 66px;
-       bottom: 11px;
+       bottom: 59px;
     }
 
     /* Games Catalog Part Css Start */
