@@ -85,18 +85,22 @@
     /* Gaming Part-1 Css Start */
     .rightheading h3 {
        padding-top: 30px;
-       font-size: 21px;
+       font-size: 28px;
     }
 
     .rightheading h3::after {
-       right: 76px;
-       bottom: 93px;
+       right: 155px;
+       bottom: 91px;
        width: 95px;
     }
 
     .slider-arrows {
        right: 7px;
        bottom: 48px;
+    }
+
+    #GamingPart {
+       height: 936px;
     }
 
     /* Gaming Part-1 Css End */
@@ -107,13 +111,13 @@
     }
 
     .text h3 {
-       font-size: 31px;
+       font-size: 38px;
     }
 
     .text h3::after {
-       bottom: 81px;
+       bottom: 78px;
        width: 95px;
-       right: 135px;
+       right: 50px;
     }
 
     /* Previous Match Responsive */
@@ -166,12 +170,12 @@
 
     /* Top Games Part Css Start */
     .headingTxt h3 {
-       font-size: 25px;
+       font-size: 40px;
     }
 
     .headingTxt h3::after {
-       right: 69px;
-       bottom: 60px;
+       right: 101px;
+       bottom: 54px;
     }
 
     /* Games Catalog Part Css Start */
@@ -198,6 +202,14 @@
 
 
     /* ACCESORIES Provide Part Css Start */
+    .row>* {
+       padding-left: calc(var(--bs-gutter-x) * 1.2);
+    }
+
+    #ACCESORIES-Provide {
+       height: 2300px;
+    }
+
     .HeadingText {
        padding-top: 40px;
        padding-bottom: 38px;
@@ -224,7 +236,7 @@
     /* Meet Our Team Start */
     .Heading-txt h3 {
        font-size: 23px;
-       padding-top: 1300px;
+       padding-top: 0px;
     }
 
     .Heading-txt h3::after {
@@ -243,7 +255,7 @@
     }
 
     .social-Icon {
-       padding-left: 212px;
+       padding-left: 195px;
     }
 
     /* Meet Our Team End */
@@ -281,13 +293,13 @@
     }
 
     .subscribe-btn {
-       margin-left: 229px;
+       margin-left: 207px;
        padding: 0px 25px;
-       height: 38%;
+       height: 33%;
     }
 
     .form-control {
-       width: 304px;
+       width: 275px;
     }
 
     .subscribe-section {
