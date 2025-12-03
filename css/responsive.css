@@ -85,7 +85,7 @@
     /* Gaming Part-1 Css Start */
     .rightheading h3 {
        padding-top: 30px;
-       font-size: 24px;
+       font-size: 28px;
     }
 
     .rightheading h3::after {
@@ -111,7 +111,7 @@
     }
 
     .text h3 {
-       font-size: 33px;
+       font-size: 34px;
     }
 
     .text h3::after {
@@ -170,13 +170,13 @@
 
     /* Top Games Part Css Start */
     .headingTxt h3 {
-       font-size: 24px;
+       font-size: 32px;
        padding-left: 9px;
     }
 
     .headingTxt h3::after {
-       right: 66px;
-       bottom: 59px;
+       right: 82px;
+       bottom: 57px;
     }
 
     /* Games Catalog Part Css Start */
@@ -236,13 +236,13 @@
 
     /* Meet Our Team Start */
     .Heading-txt h3 {
-       font-size: 23px;
+       font-size: 29px;
        padding-top: 0px;
     }
 
     .Heading-txt h3::after {
-       bottom: 14px;
-       left: 176px;
+       bottom: 11px;
+       left: 167px;
     }
 
     .overly p {
@@ -265,6 +265,12 @@
     .txtHeading h3 {
        font-size: 22px;
        width: 352px;
+    }
+
+    .txtHeading h3::after {
+       bottom: -25px;
+       width: 70px;
+       left: 227px;
     }
 
     .question h4 {
