@@ -111,7 +111,7 @@
     }
 
     .text h3 {
-       font-size: 34px;
+       font-size: 44px;
     }
 
     .text h3::after {
@@ -242,7 +242,7 @@
 
     .Heading-txt h3::after {
        bottom: 11px;
-       left: 167px;
+       left: 227px;
     }
 
     .overly p {
@@ -307,6 +307,7 @@
 
     .form-control {
        width: 275px;
+       height: 90%;
     }
 
     .subscribe-section {
